@@ -6,6 +6,8 @@
     $('#grow-me').addClass('big');
     $('#shrink-me').removeClass('big');
     var $input = $("#some-text");
+    $("li").text(console.log);
+    $('h1').html("Welcome " + $("#name").val());
 };
 
 const li = $('li');
